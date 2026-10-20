@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yaraslau Hladzilin</title>
+<meta name="description" content="Yaraslau (Yara) Hladzilin, hospitality management student at HIM Business School, Montreux. Looking for a 6-month front or back office internship from 1 April 2027.">
+<meta property="og:title" content="Yaraslau Hladzilin · Front Office and Rooms Division">
+<meta property="og:description" content="Hospitality student at HIM Montreux. Available from 1 April 2027 for a 6-month rooms division internship.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230D0A0A'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='34' font-weight='bold' fill='%23C9837A'%3EYH%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://yaraslauhladzilin.github.io/photo.jpg">
+<meta property="og:url" content="https://yaraslauhladzilin.github.io/">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0D0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400&family=Pirata+One&display=swap">
+<style>
+/* Layout: one dark editorial column. Portrait hero, a quiet facts strip, then sections on a left label rail. Gothic lives only in the monogram and the watermark. */
+:root{
+  --ink:#0D0A0A;          /* page */
+  --panel:#151010;        /* raised blocks */
+  --line:#2C2221;         /* hairlines */
+  --bone:#E8E0D6;         /* main text */
+  --ash:#A2958F;          /* secondary text */
+  --blood:#6B1A1A;        /* oxblood fills */
+  --rose:#C9837A;         /* oxblood readable on dark */
+  --f-mark:'Pirata One',Georgia,serif;
+  --f-display:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --f-body:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--ink);color:var(--bone);font-family:var(--f-body);font-size:17px;line-height:1.65;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ink)}
+a{color:var(--bone);text-decoration-color:var(--rose);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto}
+.label{font-family:var(--f-mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ash)}
+
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ink);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.mark{font-family:var(--f-mark);font-size:28px;line-height:1;color:var(--rose);text-decoration:none}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{font-size:14px;color:var(--ash);text-decoration:none}
+nav ul a:hover{color:var(--bone)}
+@media (max-width:640px){nav ul{display:none}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding-block:56px 48px}
+.hero::after{content:"YH";position:absolute;right:-2%;bottom:-18%;font-family:var(--f-mark);font-size:min(52vw,520px);line-height:1;color:var(--blood);opacity:.22;pointer-events:none;z-index:0}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.85fr);gap:48px;align-items:center}
+.hero h1{font-family:var(--f-display);font-weight:600;font-size:clamp(44px,7.4vw,84px);line-height:.98;letter-spacing:-.01em;margin:14px 0 8px;text-wrap:balance}
+.hero .yara{font-family:var(--f-display);font-style:italic;font-size:clamp(22px,2.6vw,28px);color:var(--rose);margin:0 0 18px}
+.hero p.lede{max-width:34em;color:var(--bone);margin:0 0 26px}
+.chip{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--panel);padding:8px 14px;font-size:14px;margin-bottom:26px}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--rose)}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;font:600 15px var(--f-body);text-decoration:none;border:1px solid var(--rose);cursor:pointer;transition:background .2s,color .2s}
+.btn.primary{background:var(--blood);border-color:var(--blood);color:var(--bone)}
+.btn.primary:hover{background:#80211F;border-color:#80211F}
+.btn.ghost{background:transparent;color:var(--bone)}
+.btn.ghost:hover{background:var(--panel)}
+.portrait{position:relative;max-width:380px;justify-self:end;width:100%}
+.portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(.25) contrast(1.04);border:1px solid var(--line)}
+.portrait::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--blood);z-index:-1}
+@media (max-width:820px){
+  .hero{padding-block:32px 40px}
+  .hero .wrap{grid-template-columns:1fr;gap:32px}
+  .portrait{justify-self:start;max-width:260px;order:-1}
+}
+
+/* facts strip */
+.facts{border-block:1px solid var(--line);background:var(--panel)}
+.facts dl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0}
+.facts div{padding-block:20px;padding-inline:20px;border-left:1px solid var(--line);min-width:0}
+.facts div:first-child{border-left:0;padding-left:0}
+.facts dt{margin-bottom:6px}
+.facts dd{margin:0;font-size:15px}
+@media (max-width:820px){.facts dl{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div{border-left:0;padding-left:0;border-top:1px solid var(--line)}.facts div:nth-child(-n+2){border-top:0}}
+
+/* sections */
+section.block{padding-block:64px;border-bottom:1px solid var(--line)}
+section.block .wrap{display:grid;grid-template-columns:200px minmax(0,1fr);gap:40px}
+section.block h2{font-family:var(--f-display);font-weight:600;font-size:34px;line-height:1.1;margin:8px 0 0;text-wrap:balance}
+@media (max-width:820px){section.block{padding-block:48px}section.block .wrap{grid-template-columns:1fr;gap:20px}}
+.prose{max-width:62ch}
+.prose p{margin:0 0 16px}
+
+.role{padding-bottom:28px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.role:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.role header{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;align-items:baseline}
+.role h3{font-family:var(--f-display);font-weight:600;font-size:26px;margin:0}
+.role .meta{font-family:var(--f-mono);font-size:13px;color:var(--ash);font-variant-numeric:tabular-nums}
+.role .sub{color:var(--ash);margin:2px 0 16px;font-size:15px}
+.stints{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.stint{background:var(--panel);border:1px solid var(--line);padding:18px 20px;min-width:0}
+.stint h4{margin:0 0 2px;font-size:16px;font-weight:600}
+.stint .meta{display:block;margin-bottom:10px}
+ul.ticks{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+ul.ticks li{position:relative;padding-left:18px;font-size:15px}
+ul.ticks li::before{content:"";position:absolute;left:0;top:.72em;width:7px;height:1px;background:var(--rose)}
+@media (max-width:640px){.stints{grid-template-columns:1fr}}
+
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+@media (max-width:640px){.two{grid-template-columns:1fr;gap:24px}}
+.two h3{font-size:16px;font-weight:600;margin:0 0 10px}
+.langs{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.langs li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:8px;font-size:15px}
+.langs span:last-child{font-family:var(--f-mono);font-size:13px;color:var(--ash)}
+
+.edu{display:grid;gap:22px}
+.edu h3{font-family:var(--f-display);font-weight:600;font-size:24px;margin:0}
+.edu p{margin:2px 0 0;color:var(--ash);font-size:15px}
+
+.seek{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.seek div{background:var(--ink);padding:18px 20px;min-width:0}
+.seek dd{margin:6px 0 0;font-size:16px}
+@media (max-width:640px){.seek{grid-template-columns:1fr}}
+.note{color:var(--ash);font-size:15px;margin-top:18px;max-width:62ch}
+
+.outside{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px;padding:0;list-style:none}
+.outside li{border:1px solid var(--line);padding:6px 14px;font-size:15px}
+
+.contact{display:grid;gap:14px;max-width:560px}
+.mail{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;background:var(--panel);border:1px solid var(--line);padding:14px 18px}
+.mail a{font-size:17px;word-break:break-all}
+.mail .label{display:block;margin-bottom:2px}
+.copy{background:transparent;border:1px solid var(--line);color:var(--ash);font:500 13px var(--f-body);padding:6px 12px;cursor:pointer}
+.copy:hover{color:var(--bone);border-color:var(--rose)}
+
+footer{padding-block:32px 40px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;color:var(--ash);font-size:13px}
+footer .mark{font-size:22px}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="Back to top">YH</a>
+    <ul>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#looking">Looking for</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="wrap">
+      <div>
+        <span class="label">Hospitality · Front office and rooms division</span>
+        <h1>Yaraslau Hladzilin</h1>
+        <p class="yara">Most people call me Yara.</p>
+        <p class="lede">Hospitality management student at HIM Business School in Montreux. I've worked the front desk and the back office of a luxury resort in California, and I'm looking for my next rooms division internship, ideally in Australia or New Zealand.</p>
+        <div class="chip"><span class="dot" aria-hidden="true"></span>Available from 1 April 2027 · 6 months, open to 12</div>
+        <div class="ctas">
+          <a class="btn primary" href="cv.pdf" target="_blank" rel="noopener">View my CV</a>
+          <a class="btn ghost" href="mailto:yaraslauhladzilin@gmail.com?subject=Internship%20opportunity">Email me</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/yaraslau-hladzilin-717547445" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="portrait" style="margin:0">
+        <img src="photo.jpg" alt="Portrait of Yaraslau Hladzilin in a brown suit and tie" width="640" height="800">
+      </figure>
+    </div>
+  </header>
+
+  <section class="facts" aria-label="At a glance">
+    <div class="wrap">
+      <dl>
+        <div><dt class="label">Based in</dt><dd>Montreux, Switzerland</dd></div>
+        <div><dt class="label">Studying</dt><dd>BBA, HIM Business School</dd></div>
+        <div><dt class="label">Experience</dt><dd>Montage Healdsburg, USA</dd></div>
+        <div><dt class="label">Languages</dt><dd>English C1 · Russian · Belarusian · French</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap">
+      <div><span class="label">About</span><h2>Why rooms division</h2></div>
+      <div class="prose">
+        <p>The front desk is where a guest decides how they feel about a hotel. The back office is where the reservations, accounts and reports behind that moment either hold together or don't. My first internship let me do both, and I want to go deeper on each.</p>
+        <p>I'm organised, careful with details like guest folios and reservation notes, and I stay calm when a queue builds at check-in. I'm comfortable in international teams and I adapt fast to a new place, a new system and a new shift pattern.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="experience">
+    <div class="wrap">
+      <div><span class="label">Experience</span><h2>Where I've worked</h2></div>
+      <div>
+        <article class="role">
+          <header><h3>Montage Healdsburg</h3><span class="meta">Apr – Jul 2026 · 4 months</span></header>
+          <p class="sub">Luxury resort, Healdsburg, California · Rotational internship</p>
+          <div class="stints">
+            <div class="stint">
+              <h4>Front Desk Agent</h4><span class="meta">2 months</span>
+              <ul class="ticks">
+                <li>Checked guests in and out and kept reservations and billing accurate.</li>
+                <li>Processed payments and handled requests in person, by phone and by email.</li>
+                <li>Looked after an international guest list with high expectations.</li>
+              </ul>
+            </div>
+            <div class="stint">
+              <h4>Back Office Coordinator</h4><span class="meta">2 months</span>
+              <ul class="ticks">
+                <li>Coordinated daily back office tasks and supported the front office team with administration.</li>
+                <li>Checked reservations, guest accounts and daily reports for accuracy.</li>
+                <li>Resolved discrepancies by working directly with other departments.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="role">
+          <header><h3>HIM practical training</h3><span class="meta">Sep 2025</span></header>
+          <p class="sub">Leysin, Switzerland · Barista, kitchen assistant, service</p>
+          <ul class="ticks">
+            <li>Rotated through the coffee bar, the kitchen and restaurant service.</li>
+            <li>Saw how food and beverage teams depend on the rest of the hotel.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div><span class="label">Skills</span><h2>What I bring</h2></div>
+      <div class="two">
+        <div>
+          <h3>Rooms division</h3>
+          <ul class="ticks">
+            <li>Check-in, check-out and guest requests</li>
+            <li>Reservations, guest folios and payments</li>
+            <li>Daily report checks and fixing discrepancies</li>
+            <li>Working across departments</li>
+            <li>NewHotel PMS, Excel, Word, PowerPoint</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <ul class="langs">
+            <li><span>English</span><span>Fluent · C1</span></li>
+            <li><span>Russian</span><span>Native</span></li>
+            <li><span>Belarusian</span><span>Native</span></li>
+            <li><span>French</span><span>A2, working toward B1</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="education">
+    <div class="wrap">
+      <div><span class="label">Education</span><h2>Studies</h2></div>
+      <div class="edu">
+        <div><h3>HIM Business School</h3><p>Bachelor of Business Administration · Montreux · Oct 2025 – present</p></div>
+        <div><h3>YUVENTA Private Secondary School</h3><p>High school diploma · St. Petersburg · 2023 – 2025</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="looking">
+    <div class="wrap">
+      <div><span class="label">Looking for</span><h2>My next internship</h2></div>
+      <div>
+        <dl class="seek">
+          <div><dt class="label">Role</dt><dd>Front office or back office supervisor trainee, or another rooms division role</dd></div>
+          <div><dt class="label">Start</dt><dd>1 April 2027</dd></div>
+          <div><dt class="label">Length</dt><dd>6 months, open to 12</dd></div>
+          <div><dt class="label">Where</dt><dd>Australia and New Zealand first, open to strong offers worldwide</dd></div>
+        </dl>
+        <p class="note">The internship is a required part of my degree, so HIM provides an official support letter. I'll need an internship or trainee visa for your country, and I'm happy to walk you through the process.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="outside">
+    <div class="wrap">
+      <div><span class="label">Outside work</span><h2>Off shift</h2></div>
+      <div class="prose">
+        <ul class="outside">
+          <li>Martial arts</li><li>Skiing</li><li>Diving</li><li>Hiking and camping</li>
+        </ul>
+        <p>Years of training taught me routine and how to keep a clear head under pressure. They're also a big part of why I want to live somewhere with mountains and ocean close by.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap">
+      <div><span class="label">Contact</span><h2>Let's talk</h2></div>
+      <div class="contact">
+        <div class="mail">
+          <div><span class="label">Main email</span><a href="mailto:yaraslauhladzilin@gmail.com" id="m1">yaraslauhladzilin@gmail.com</a></div>
+          <button class="copy" type="button" data-copy="yaraslauhladzilin@gmail.com" id="c1">Copy</button>
+        </div>
+        <div class="mail">
+          <div><span class="label">School email</span><a href="mailto:yaraslau.hladzilin@edu-him.ch" id="m2">yaraslau.hladzilin@edu-him.ch</a></div>
+          <button class="copy" type="button" data-copy="yaraslau.hladzilin@edu-him.ch" id="c2">Copy</button>
+        </div>
+        <div class="mail">
+          <div><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/yaraslau-hladzilin-717547445" target="_blank" rel="noopener">in/yaraslau-hladzilin</a></div>
+        </div>
+        <p class="note" style="margin-top:4px">References available on request.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="mark" href="#top" aria-label="Back to top">YH</a>
+    <span>Yaraslau Hladzilin · Montreux · Updated October 2026</span>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=b.getAttribute('data-copy');
+    var done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1600)};
+    try{
+      navigator.clipboard.writeText(t).then(done,function(){sel(b)});
+    }catch(e){sel(b)}
+  });
+});
+function sel(b){
+  var a=b.parentNode.querySelector('a');var r=document.createRange();r.selectNodeContents(a);
+  var s=window.getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected';
+}
+</script>
+
+</body>
+</html>
